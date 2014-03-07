@@ -24,23 +24,28 @@
 		<link rel="stylesheet" href="css/colorPicker.css" type="text/css" media="screen" charset="utf-8">
 	</head>
 	<body>
-		<!-- Add your site or application content here -->
-		<div id="interactiveContent">
-			<div id="leftColumn" class="column">
-			  <div class="cbInner">
-  				<div id="staticContainer">
-  					<div id="chartContainer"></div>
-  
-  					<canvas id="canvas" width="1200px" height="676px"></canvas> 
-  					<canvas id="favicanvas" width="16px" height="16px"></canvas> 
-  				</div>
-			  </div>
+	
+  	<!-- Add your site or application content here -->	
+    <div id="interactiveContent">
+
+      <div id="topBar">
+        <span><img id="sglogo" src="images/sglogowhite.png"></span>
+        <h1 id="headertext">Chart Generator</h1>
       </div>
 
+       <div id="leftColumn" class="column">
+          <div class="cbInner">
+            <div id="staticContainer">
+              <div id="chartContainer"></div>
+    
+              <canvas id="canvas" width="1200px" height="676px"></canvas> 
+              <canvas id="favicanvas" width="16px" height="16px"></canvas> 
+            </div>
+          </div>
+        </div>
+
 			<div id="rightColumn" class="column">
-			  <div class="cbInner">
-			    <h1>ChartBuilder</h1>
-			  
+			  <div class="cbInner"> 
   				<div id="chartOptions" class="interfaceCol">
              <div id="datainput">
              	<div class="inputGroup">
@@ -160,7 +165,10 @@
 			</div>
       <div id="blankColumn" class="column"></div>
       <div class="clearfix"></div>
-		</div>
+    </div>
+
+
+
 
     <!-- Libraries JS -->
 		<script src="bower_components/modernizr/modernizr.js" charset="utf-8"></script>
